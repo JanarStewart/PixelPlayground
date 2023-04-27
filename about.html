@@ -1,53 +1,87 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title>Pixel Playground</title>
-    <!-- Link to Bootstrap CSS file -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-  </head>
-  <body style="background-image: url(https://wallpaperaccess.com/full/324363.jpg);">
-    <!-- Header section -->
-    <header class="bg-light">
-      <nav class="navbar navbar-expand-lg navbar-light bg-dark">
-        <a class="navbar-brand" class=text-white href="#">Pixel Playground</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="index.html">Home</a>
-            </li>
-            <li class="nav-item">
-                <form class="form-inline my-2 my-lg-0">
-                  <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                  <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-                </form>
-              </li>
-            <li class="nav-item">
-              <a class="nav-link" href="about.html">Sign In</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="contact.html">Cart</a>
-            </li>
-          </ul>
-        </div>
-      </nav>
-    </header>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Video Game Shop</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+  <body style="background-image: url('https://cdn.discordapp.com/attachments/1087948501616439307/1091126903525605396/pexels-alena-darmel-7862657.jpg')";>
+
+   <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">Video Game Shop</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Genres
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="#">Action</a>
+            <a class="dropdown-item" href="#">Adventure</a>
+            <a class="dropdown-item" href="#">RPG</a>
+            <a class="dropdown-item" href="#">Sports</a>
+            <a class="dropdown-item" href="#">Strategy</a>
+          </div>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="about.html">About Us</a>
+        </li>
+      </ul>
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="#">Sign In</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">
+            <i class="fas fa-shopping-cart"></i>
+            Cart (0)
+          </a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
     <!-- Main content section -->
     <main class="container my-5">
     <!-- This Video -->
-    <video src="https://placehold.co/1920x1080.mp4"width="900"></video>
-      <h1 text-white bg-dark>About Us</h1>
-      <p>Pixel Playground is the leading online marketplace for gamers to discover and download the latest and greatest games for their devices. Our mission is to provide the best gaming experience for our users by offering a wide variety of high-quality games at affordable prices.</p>
-      <p>Our team of designers and developers have years of experience in the industry, and we are dedicated to creating high-quality, responsive websites that exceed our clients' expectations.</p>
-      <p>We work closely with game developers and publishers to bring you the most popular titles from around the world. Our team of experts carefully curates each game to ensure that it meets our standards for quality and playability.</p>
-      <p>Whether you're into action-packed shooters, immersive role-playing games, or casual puzzle games, we have something for everyone. With Gaming App Store, you'll never run out of exciting new games to play.</p>
+    <img src="https://i.gifer.com/Az1x.gif" width="900"></img>
+      <div class="bg-dark p-2" style="--bs-bg-opacity: .5;">
+      <h1 class="text-white">About Us</h1>
+      <p style="font-size: 25px; font-family: Helvetica, Arial, sans-serif; font-style: italic; color: white;">Pixel Playground is the leading online marketplace for gamers to discover and download the latest and greatest games for their devices. Our mission is to provide the best gaming experience for our users by offering a wide variety of high-quality games at affordable prices.</p>
+      <p style="font-size: 25px; font-family: Helvetica, Arial, sans-serif; font-style: italic; color: white;">Our team of designers and developers have years of experience in the industry, and we are dedicated to creating high-quality, responsive websites that exceed our clients' expectations.</p>
+      <p style="font-size: 25px; font-family: Helvetica, Arial, sans-serif; font-style: italic; color: white;">We work closely with game developers and publishers to bring you the most popular titles from around the world. Our team of experts carefully curates each game to ensure that it meets our standards for quality and playability.</p>
+      <p style="font-size: 25px; font-family: Helvetica, Arial, sans-serif; font-style: italic; color: white;">Whether you're into action-packed shooters, immersive role-playing games, or casual puzzle games, we have something for everyone. With Gaming App Store, you'll never run out of exciting new games to play.</p>
+      </div>
     </main>
     <!-- Footer section -->
-    <footer class="bg-light text-center py-3">
-        <p><button href=>Contact Us</p>
-      <p>&copy; Pixel Playground</p>
+    <footer class="bg-dark text-center py-3">
+        <p style="font-size: 25px; font-family: Helvetica, Arial, sans-serif; font-style: italic; color: white;">Contact Us</p>
+      <p style="font-size: 25px; font-family: Helvetica, Arial, sans-serif; font-style: italic; color: white;">&copy Pixel Playground</p>
+      <div class="container">
+      <div class="row justify-content-center">
+          <div class="col-md-2">
+              <img src="https://static.vecteezy.com/system/resources/previews/006/892/625/original/discord-logo-icon-editorial-free-vector.jpg" height="50px" class="img-responsive">
+          </div>
+          <div class="col-md-2">
+              <img src="https://cdn-icons-png.flaticon.com/512/5968/5968819.png" height="50px" class="img-responsive">
+          </div>
+          <div class="col-md-2">
+              <img src="https://www.iconpacks.net/icons/1/free-youtube-icon-141-thumb.png" height="50px" class="img-responsive">
+          </div>
+          <div class="col-md-2">
+              <img src="https://cdn.discordapp.com/attachments/1091042611676053604/1091081285344174272/icons8-reddit-64.png" height="60px" class="img-responsive">
+          </div>
+          <div class="col-md-2">
+              <img src="https://media.discordapp.net/attachments/1091042611676053604/1091081285889437766/icons8-tiktok-94.png?width=117&height=117" height="50px" class="img-responsive">
+      </div>
+  </div>
     </footer>
 </body>
-</html>
