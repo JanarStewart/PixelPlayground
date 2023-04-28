@@ -11,3 +11,6 @@
     height: 60px;
 }
 
+.dropdown-item {
+    color: grey;    
+} 
