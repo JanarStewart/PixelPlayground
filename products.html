@@ -11,7 +11,7 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
+  
   <!-- Navbar -->
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <a class="navbar-brand" href="#">Video Game Shop</a>
@@ -41,7 +41,7 @@
           <a class="nav-link" href="#">Sign In</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">
+          <a class="nav-link" href="cart.html">
             <i class="fas fa-shopping-cart"></i>
             Cart (0)
           </a>
@@ -53,25 +53,27 @@
   <!-- Main Content -->
   <div class="container my-4">
     <div class="row">
-
       <!-- Product 1 -->
       <div class="col-md-6 mb-4">
         <div class="card h-100">
           <img src="https://imgs.callofduty.com/content/dam/atvi/callofduty/cod-touchui/mw2/meta-images/reveal/mw2-reveal-meta-share.jpg" class="card-img-top" alt="Product 1">
           <div class="card-body">
             <h5 class="card-title">Call Of Duty: Modern Warfare 2</h5>
-            <p class="card-text">Welcome to the new era of Call of Duty®.
-
-              Call of Duty®: Modern Warfare® II drops players into an unprecedented global conflict that features the return of the iconic Operators of Task Force 141. From small-scale, high-stakes infiltration tactical ops to highly classified missions, players will deploy alongside friends in a truly immersive experience.
-              
-              Infinity Ward brings fans state-of-the-art gameplay, with all-new gun handling, advanced AI system, a new Gunsmith and a suite of other gameplay and graphical innovations that elevate the franchise to new heights.
+            <p class="card-text">Experience the ultimate online playground with classic multiplayer, or squad-up and play cooperatively in a collection of elite operations accessible to all skill levels.
               </p>
             <h6 class="card-subtitle mb-2 text-muted">$69.99</h6>
-            <a href="#" class="btn btn-primary mr-2">Buy Now</a>
-            <a href="#" class="btn btn-success mr-2">Add To Cart</a> 
-            <a href="#" class="btn btn-warning mr-2">Add To Wishlist</a>
-
-    
+            <a href="checkout.html" class="btn btn-primary mr-2" id="buy-now">Buy Now</a>
+            <a href="checkout.html" class="btn btn-success mr-2" id="add-to-cart">Add To Cart</a>
+            <a href="#" class="btn btn-warning mr-2" id="add-to-wishlist">Add To Wishlist</a>
+          </div>
+        </div>
+      </div>
+      
+  </div>                                                                                                                                                                                  
+  <script src="scripts/itemsController.js"></script>
+  <script src="scripts/item.js"></script>
+  <script src="scripts/cart.js"></script>                                                                                                                                       
+</body>   
      
       
 
