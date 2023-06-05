@@ -1,0 +1,217 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url("https://images.pexels.com/photos/3165335/pexels-photo-3165335.jpeg?cs=srgb&dl=pexels-lucie-liz-3165335.jpg&fm=jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    overflow: auto;
+    color: #fff;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Header Styles */
+  .main-header {
+    background-color: #303030;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .main-nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Added to vertically center the image */
+  }
+  
+  .main-nav ul li {
+    margin: 0 10px;
+  }
+  
+  .main-nav ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .main-nav ul li:first-child img {
+    width: 50px; /* Adjust the width as needed */
+    height: auto; /* Maintain the aspect ratio */
+    margin-right: 10px; /* Add spacing between the image and text */
+  }
+  
+  .band-name {
+    font-size: 24px;
+  }
+  
+  .band-name-large {
+    font-size: 36px;
+  }
+  
+  /* Content Styles */
+  .section-header {
+    text-align: center;
+    margin-top: 40px;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+  }
+  
+  .shop-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .shop-item {
+    width: 300px;
+    margin: 20px;
+    background-color: #020202;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .shop-item-title {
+    font-size: 18px;
+    margin-top: 10px;
+    color: #ffffff;
+  }
+  
+  .shop-item-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 5px;
+    margin-top: 10px;
+  }
+  
+  .shop-item-details {
+    margin-top: 10px;
+    color: #fff;
+  }
+  
+  .shop-item-price {
+    font-weight: bold;
+  }
+  
+  .shop-item-button {
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  /* Cart Styles */
+  .cart-row {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .cart-item,
+  .cart-price,
+  .cart-quantity {
+    width: 33%;
+    text-align: center;
+    background-color: #ddd;
+    color: #000000;
+  }
+  
+  .cart-total {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px;
+    font-weight: bold;
+    color: #ffffff;
+  }
+  
+  .cart-total-title {
+    margin-right: 10px;
+  }
+  
+  .cart-total-price {
+    color: #ffffff;
+  }
+  
+  .btn-purchase {
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  /* Footer Styles */
+  .main-footer {
+    background-color: #000000;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .footer-nav {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .footer-nav li {
+    margin: 0 10px;
+  }
+  
+  .footer-nav img {
+    width: 30px;
+    height: 30px;
+  }
+  
+  /* Responsive Styles */
+  @media screen and (max-width: 768px) {
+    .shop-item {
+      width: 100%;
+      margin: 20px 0;
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    .shop-item-image {
+      height: 150px;
+    }
+  }
+  h1.band-name {
+    display: flex;
+    align-items: center;
+  }
+  
+  h1.band-name img {
+    width: 50px; /* Adjust the width as needed */
+    height: auto; /* Maintain the aspect ratio */
+    margin-right: 10px; /* Add spacing between the image and text */
+  }
+  /* Disable zoom on mobile devices */
+  @viewport {
+    zoom: 1.0 !important;
+    width: extend-to-zoom;
+  }
+  
+  /* Prevent zooming on older versions of iOS */
+  html {
+    touch-action: manipulation;
+  }
+  
