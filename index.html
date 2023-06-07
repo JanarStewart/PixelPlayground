@@ -1,21 +1,42 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>PixelPlayground Home</title>
+    <title>Game Shop</title>
     <meta name="description" content="This is an eCommerce game shop">
-    <link rel="stylesheet" href="./resources/css/styles.css" />
-   <script src="./resources/js/store.js" async></script>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="store.js" async></script>
+    <!-- Include Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.2/css/bootstrap.min.css">
 </head>
 <body>
     <header class="main-header">
-        <nav class="main-nav nav">
-            <ul>
-                <li><a href="index.html"><img src="./resources/images/PixelPlaygroundLogo.png" alt="Brand Logo"></a></li>
-
-                <li><a href="store.html">STORE</a></li>
-                <li><a href="about.html">ABOUT</a></li>
-                <li><a href="signin.html">LOGIN</a></li>
-            </ul>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <a class="navbar-brand" href="#"><img height="36px" style="margin-left: 10px" src="resources/images/PixelPlaygroundLogo.png" alt="Pixel Playground Logo"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="store.html">Store</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Sign In</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">
+                            <i class="fas fa-shopping-cart"></i>
+            
+                        </a>
+                    </li>
+                </ul>
+            </div>
         </nav>
     </header>
     <section class="container content-section">
@@ -151,8 +172,15 @@
                         <img src="Images/Facebook Logo.png" alt="Facebook Logo">
                     </a>
                 </li>
+                <li>
+                    <a href="https://www.twitter.com" target="_blank">
+                        <img src="Images/Twitter Logo.png" alt="Twitter Logo">
+                    </a>
+                </li>
             </ul>
         </div>
     </footer>
+    <!-- Include Bootstrap JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.2/js/bootstrap.min.js"></script>
 </body>
 </html>
